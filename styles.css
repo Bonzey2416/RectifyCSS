@@ -346,6 +346,8 @@ html, body {
   font-family: var(--font-sans-serif);
 }
 
+::marker {font-variant-numeric: tabular-nums lining-nums;}
+
 .round-none {border-radius: 0 !important;}
 .round-small {border-radius: 2px !important;}
 .round-medium {border-radius: 4px !important;}
