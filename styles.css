@@ -466,28 +466,68 @@ html, body {
 .round-circle {border-radius: 50% !important;}
 
 h1 {
-  font-size: 3.81em;
-  font-weight: 300;
-}
-h2 {
-  font-size: 3.05em;
-  font-weight: 300;
-}
-h3 {
-  font-size: 2.44em;
+  font-size: 1.9em;
   font-weight: 600;
 }
+h2 {
+  font-size: 1.74em;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.59em;
+  font-weight: 700;
+}
 h4 {
-  font-size: 1.95em;
+  font-size: 1.45em;
   font-weight: 700;
 }
 h5 {
-  font-size: 1.56em;
+  font-size: 1.32em;
   font-weight: 800;
 }
 h6 {
-  font-size: 1.25em;
+  font-size: 1.2em;
   font-weight: 900;
+}
+
+h1.display {
+  font-size: 3.1em;
+  font-weight: 300;
+}
+h2.display {
+  font-size: 2.76em;
+  font-weight: 300;
+}
+h3.display {
+  font-size: 2.47em;
+  font-weight: 300;
+}
+h4.display {
+  font-size: 2.22em;
+  font-weight: 300;
+}
+h5.display {
+  font-size: 2em;
+  font-weight: 300;
+}
+h6.display {
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+a {
+  color: var(--color-primary30);
+  transition: all 200ms;
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--color-primary20);
+}
+
+a:hover {
+  color: var(--color-primary50);
+  text-decoration: underline;
 }
 
 .container {
@@ -517,6 +557,85 @@ table.rectify-table tr > *:last-child {
 
 table.rectify-table th, table.rectify-table td {
   padding: 4px 6px;
+}
+
+.alert {
+  padding: 12px 16px;
+  border: 1px solid;
+  margin: 16px;
+  border-radius: 8px;
+}
+
+.alert-success {
+  background: var(--color-success80);
+  border-color: var(--color-success50);
+  color: var(--color-success20);
+}
+
+.alert-success a {
+  color: var(--color-success40);
+}
+
+.alert-success a:visited {
+  color: var(--color-success30);
+}
+
+.alert-success a:hover {
+  color: var(--color-success50);
+}
+
+.alert-info {
+  background: var(--color-info80);
+  border-color: var(--color-info50);
+  color: var(--color-info20);
+}
+
+.alert-info a {
+  color: var(--color-info40);
+}
+
+.alert-info a:visited {
+  color: var(--color-info30);
+}
+
+.alert-info a:hover {
+  color: var(--color-info50);
+}
+
+.alert-warning {
+  background: var(--color-warning80);
+  border-color: var(--color-warning50);
+  color: var(--color-warning20);
+}
+
+.alert-warning a {
+  color: var(--color-warning40);
+}
+
+.alert-warning a:visited {
+  color: var(--color-warning30);
+}
+
+.alert-warning a:hover {
+  color: var(--color-warning50);
+}
+
+.alert-danger {
+  background: var(--color-danger80);
+  border-color: var(--color-danger50);
+  color: var(--color-danger20);
+}
+
+.alert-danger a {
+  color: var(--color-danger40);
+}
+
+.alert-danger a:visited {
+  color: var(--color-danger30);
+}
+
+.alert-danger a:hover {
+  color: var(--color-danger50);
 }
 
 @media screen and (max-width: 576px) {
