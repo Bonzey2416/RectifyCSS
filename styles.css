@@ -470,15 +470,27 @@ input, button {
 .round-circle {border-radius: 50% !important;}
 
 .float-start {
-  float: left;
+  float: left !important;
 }
 
 .float-end {
-  float: right;
+  float: right !important;
 }
 
 .mx-auto {
-  margin: auto;
+  margin: auto !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.d-inline-flex {
+  display: inline-flex !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
