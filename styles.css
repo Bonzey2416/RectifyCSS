@@ -1,4 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&display=swap');
+
+@font-face {font-family: "FF Kievit (legacy)"; font-weight: normal; src: url("//db.onlinewebfonts.com/t/ef73af39607418dd1b3702b4bc754d0d.eot"); src: url("//db.onlinewebfonts.com/t/ef73af39607418dd1b3702b4bc754d0d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ef73af39607418dd1b3702b4bc754d0d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ef73af39607418dd1b3702b4bc754d0d.woff") format("woff"), url("//db.onlinewebfonts.com/t/ef73af39607418dd1b3702b4bc754d0d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ef73af39607418dd1b3702b4bc754d0d.svg#Uwilraatqdffnhdlymockdlgwvb") format("svg"); }
+@font-face {font-family: "FF Kievit (legacy)"; font-weight: bold; src: url("//db.onlinewebfonts.com/t/c239a98bd1228cc1e03197bdede76c4e.eot"); src: url("//db.onlinewebfonts.com/t/c239a98bd1228cc1e03197bdede76c4e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c239a98bd1228cc1e03197bdede76c4e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c239a98bd1228cc1e03197bdede76c4e.woff") format("woff"), url("//db.onlinewebfonts.com/t/c239a98bd1228cc1e03197bdede76c4e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c239a98bd1228cc1e03197bdede76c4e.svg#Jqidshbstlbtkzvwilksnmkuwuv") format("svg"); }
+
+@font-face {font-family: "FF Kievit"; font-weight:100; font-style:normal; src: url("//db.onlinewebfonts.com/t/d71af3f7257c7bd321b3dfe65b5cd6d4.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:100; font-style: italic; src: url("//db.onlinewebfonts.com/t/1fd0fd1c3c6325ed9f93e8328616670e.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:200; font-style: normal; src: url("//db.onlinewebfonts.com/t/1b3d8b4ac5c31aa243a1966570597bbb.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:200; font-style: italic; src: url("//db.onlinewebfonts.com/t/2d101cdb7e3fe08e53572808aa4fe079.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:300; font-style: normal; src: url("//db.onlinewebfonts.com/t/1643b4a6d06a65bb7de087a02c52856c.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:300; font-style: italic; src: url("//db.onlinewebfonts.com/t/a7c63cb8efd27a787f4435203d542d90.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:normal; font-style: normal; src: 
+url("//db.onlinewebfonts.com/t/46d3877aa4bb5bcb284281e0c9544c18.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:normal; font-style: italic; src: url("//db.onlinewebfonts.com/t/8ea303aa350691875802be73ed99f7cd.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:500; font-style: normal; src: url("//db.onlinewebfonts.com/t/afe9fa8e054732c845df8cdff24a1676.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:500; font-style: italic; src: url("//db.onlinewebfonts.com/t/4a537eabef3dae09a0cfb6cf6b172a2e.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:600; font-style: normal; src: url("//db.onlinewebfonts.com/t/8128c9bdad7abca6492da2af08428097.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:600; font-style: italic; src: url("//db.onlinewebfonts.com/t/84a22800be13bc5000742804dd623ede.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:bold; font-style: normal; src: url("//db.onlinewebfonts.com/t/889be4190846d6277e571f98abdf0a69.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:bold; font-style: italic; src: url("//db.onlinewebfonts.com/t/d7abd56ce94c731c07ddbed2c3aa9dcf.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:800; font-style: normal; src: url("//db.onlinewebfonts.com/t/e5f3503bc788a06f2c74df4efc52bf45.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:800; font-style: italic; src: url("//db.onlinewebfonts.com/t/ee7f15a44c9e397fbcaeb2b0e7b455be.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:900; font-style: normal; src: url("//db.onlinewebfonts.com/t/dcc5f555d6c7cb9415d5f7fe7e71b1ca.woff2") format("woff2"); }
+@font-face {font-family: "FF Kievit"; font-weight:900; font-style: italic; src: url("//db.onlinewebfonts.com/t/013e47a20474e49343bff843ececad62.woff2") format("woff2"); }
+
+
 :root {
+  /* Colors */
   --color-red100: hsl(50, 99%, 99%);
   --color-red95: hsl(30, 99%, 96%);
   --color-red90: hsl(22, 98%, 92%);
@@ -442,9 +469,9 @@
   --color-danger5: var(--color-red5);
   --color-danger0: var(--color-red0);
   
-  --font-sans-serif: "Helvetica Neue", sans-serif;
-  --font-serif: "Times New Roman", serif;
-  --font-monospace: "Courier New", monospace;
+  --font-sans-serif: "FF Kievit", "FF Kievit (legacy)", "Helvetica Neue", Geneva, sans-serif;
+  --font-serif: "Souece Serif 4", "Times New Roman", serif;
+  --font-monospace: "Source Code Pro", Consolas, "Courier New", Courier, monospace;
 }
 
 html, body {
