@@ -469,6 +469,10 @@ input, button {
 .round-full {border-radius: 999999px !important;}
 .round-circle {border-radius: 50% !important;}
 
+h1,h2,h3,h4,h5,h6 {
+  margin: 16px 0;
+}
+
 h1 {
   font-size: 1.9em;
   font-weight: 600;
@@ -540,15 +544,15 @@ a:hover {
 
 table.rectify-table {
   background: white;
-  border: 1px solid silver;
+  border: 1px solid var(--color-gray75);
   overflow: hidden;
   border-spacing: 0;
   box-shadow: 0 4px 8px rgba(0,0,0,0.05), 0 8px 16px rgba(0,0,0,0.05);
 }
 
 table.rectify-table tr > * {
-  border-right: 1px solid silver;
-  border-bottom: 1px solid silver;
+  border-right: 1px solid var(--color-gray75);
+  border-bottom: 1px solid var(--color-gray75);
 }
 
 table.rectify-table tr:last-child > * {
