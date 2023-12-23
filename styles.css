@@ -469,6 +469,18 @@ input, button {
 .round-full {border-radius: 999999px !important;}
 .round-circle {border-radius: 50% !important;}
 
+.float-start {
+  float: left;
+}
+
+.float-end {
+  float: right;
+}
+
+.mx-center {
+  margin: auto;
+}
+
 h1,h2,h3,h4,h5,h6 {
   margin: 16px 0;
 }
