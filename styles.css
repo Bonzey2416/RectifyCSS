@@ -476,6 +476,7 @@ url("//db.onlinewebfonts.com/t/46d3877aa4bb5bcb284281e0c9544c18.woff2") format("
 
 html, body {
   margin: 0;
+  background: var(--color-gray-100);
   font-variant-numeric: lining-nums;
   font-family: var(--font-sans-serif);
 }
