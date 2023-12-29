@@ -850,8 +850,15 @@ a:hover {
   text-decoration: underline;
 }
 
-.container {
-  
+/* Containers */
+.container, .container-small, .container-medium, .container-large, .container-xl, .container-xxl, .container-xxxl, .container-xxxxl {
+  width: 1600px;
+  margin: auto;
+}
+
+.container-fluid {
+  width: calc(98% - 8px);
+  margin: auto;
 }
 
 table.rectify-table {
@@ -883,7 +890,7 @@ table.rectify-table th, table.rectify-table td {
 .alert {
   padding: 12px 16px;
   border: 1px solid;
-  margin: 16px;
+  margin: 16px 0;
   border-radius: 8px;
 }
 
@@ -1019,18 +1026,19 @@ table.rectify-table th, table.rectify-table td {
   color: var(--color-gray15);
 }
 
-.alert-danger a {
+.alert-dark a {
   color: var(--color-gray35);
 }
 
-.alert-danger a:visited {
+.alert-dark a:visited {
   color: var(--color-gray25);
 }
 
-.alert-danger a:hover {
+.alert-dark a:hover {
   color: var(--color-gray45);
 }
 
+/* Buttons */
 .btn {
   border: none;
   background: transparent;
@@ -1053,6 +1061,15 @@ table.rectify-table th, table.rectify-table td {
 
 .btn.btn-primary:hover {
   background: var(--color-primary60);
+}
+
+.btn.btn-secondary {
+  background: var(--color-secondary50);
+  color: var(--color-secondary100);
+}
+
+.btn.btn-secondary:hover {
+  background: var(--color-secondary60);
 }
 
 .btn.btn-success {
@@ -1091,6 +1108,24 @@ table.rectify-table th, table.rectify-table td {
   background: var(--color-danger60);
 }
 
+.btn.btn-light {
+  background: var(--color-gray80);
+  color: var(--color-gray0);
+}
+
+.btn.btn-light:hover {
+  background: var(--color-gray90);
+}
+
+.btn.btn-dark {
+  background: var(--color-gray20);
+  color: var(--color-gray100);
+}
+
+.btn.btn-dark:hover {
+  background: var(--color-gray30);
+}
+
 .btn.btn-outlined {
   background: transparent;
   border: 1px solid;
@@ -1121,6 +1156,36 @@ table.rectify-table th, table.rectify-table td {
   color: var(--color-danger50);
 }
 
+.btn-tiny {
+    font-size: 0.65em;
+    padding: 4px 8px;
+}
+
+.btn-small {
+    font-size: 0.8em;
+    padding: 5px 10px;
+}
+
+.btn-large {
+    font-size: 1.25em;
+    padding: 7px 14px;
+}
+
+.btn-xl {
+    font-size: 1.55em;
+    padding: 8px 16px;
+}
+
+.btn-xxl {
+    font-size: 1.9em;
+    padding: 9px 18px;
+}
+
+.btn-xxxl {
+    font-size: 2.3em;
+    padding: 10px 20px;
+}
+
 .btn-group {
   display: inline-block;
 }
@@ -1139,18 +1204,76 @@ table.rectify-table th, table.rectify-table td {
   margin: 4px 4px 4px -1px;
   border-radius: 4px 1em 1em 4px;
 }
-@media screen and (max-width: 576px) {
+/* Above for 1700 pixels width or more (xxxxl) */
+/* xxxl */
+@media screen and (max-width: 1700px) {
+  .container, .container-small, .container-medium, .container-large, .container-xl, .container-xxl, .container-xxxl {
+    width: 1320px;
+  }
   
+  .container-xxxxl {
+    width: calc(98% - 8px);
+  }
 }
-@media screen and (max-width: 768px) {
-  
-}
-@media screen and (max-width: 992px) {
-  
-}
-@media screen and (max-width: 1200px) {
-  
-}
+
+/* xxl */
 @media screen and (max-width: 1400px) {
+  .container, .container-small, .container-medium, .container-large, .container-xl, .container-xxl {
+    width: 1140px;
+  }
   
+  .container-xxxl {
+    width: calc(98% - 8px);
+  }
+}
+
+/* xl */
+@media screen and (max-width: 1200px) {
+  .container, .container-small, .container-medium, .container-large, .container-xl {
+    width: 960px;
+  }
+  
+  .container-xxl {
+    width: calc(98% - 8px);
+  }
+}
+
+/* large */
+@media screen and (max-width: 992px) {
+  .container, .container-small, .container-medium, .container-large {
+    width: 720px;
+  }
+  
+  .container-xl {
+    width: calc(98% - 8px);
+  }
+}
+
+/* medium */
+@media screen and (max-width: 768px) {
+  .container, .container-small, .container-medium {
+    width: 540px;
+  }
+  
+  .container-large {
+    width: calc(98% - 8px);
+  }
+}
+
+/* small */
+@media screen and (max-width: 576px) {
+  .container-small {
+    width: 420px;
+  }
+  
+  .container-medium, .container {
+    width: calc(98% - 8px);
+  }
+}
+
+/* tiny */
+@media screen and (max-width: 432px) {
+  .container-small {
+    width: calc(98% - 8px);
+  }
 }
